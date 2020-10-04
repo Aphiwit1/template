@@ -10,7 +10,7 @@
   color: white !important;
 }
 .sidebar {
-  background: #01786d;
+  background: #272727;
   position: fixed !important;
   margin-top: -8px;
   height: 100%;
@@ -18,14 +18,20 @@
 .sidebar a,
 span {
   color: white !important;
+  font-size: 12px;
 }
 a.nav-link.active {
-  background: #009688;
+  background: #9a3de0;
 }
 
+
 .nav-link:hover {
-  background: #009688;
+  background: #9a3de0;
+  border-radius: 20px;
 }
+
+
+
 @media only screen and (max-width: 600px) {
   .sidebar {
     background: #01786d;
